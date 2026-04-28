@@ -1,0 +1,114 @@
+body {
+    font-family: "opensans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #E1624F;
+    margin-top: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1B1B1B;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+h4 {
+    font-size: 28px;
+    color: #1B1B1B;
+    font-weight: bold;
+    margin: 15px 0 10px 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 0;
+    color: #333;
+}
+
+ul {
+    margin-top: 3px;
+}
+
+li {
+    font-size: 16px;
+    margin-top: 0px;
+    color: #0c51a7;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#casais {
+    color: #591b98;
+}
+
+#familias {
+    color: #e5245e;
+}
+
+#orçamento {
+    color: #e95e10;
+}
+
+#bomPara {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+}
+
+.imagens {
+    margin-top: 50px;
+}
+
+.imagens img {
+    border-radius: 28px;
+    width: 100%;
+}
+
+#legend {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#final {
+    text-align: center;
+    color: #333;
+}
+
+#footer p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+span {
+    font-weight: bold;
+}
