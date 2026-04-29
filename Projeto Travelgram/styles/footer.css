@@ -1,0 +1,10 @@
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-block: 24px;
+}
+
+footer .container span {
+    font-weight: bold;
+}
