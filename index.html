@@ -6,89 +6,134 @@
   <title>Murilo Biscaro | Portfólio</title>
 
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: Arial, sans-serif;
+    }
+
+    body {
       background: #0f172a;
       color: #e2e8f0;
     }
 
     header {
       text-align: center;
-      padding: 40px 20px;
+      padding: 50px 20px;
     }
 
     header h1 {
+      font-size: 2.5rem;
       margin-bottom: 10px;
+    }
+
+    header p {
+      color: #94a3b8;
     }
 
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
       padding: 20px;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
     .card {
       background: #1e293b;
-      padding: 20px;
-      border-radius: 10px;
+      border-radius: 12px;
+      overflow: hidden;
       transition: 0.3s;
     }
 
     .card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }
 
-    .card h2 {
-      margin-top: 0;
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
     }
 
-    .card a {
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    .btn {
       display: inline-block;
-      margin-top: 10px;
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #38bdf8;
+      color: #0f172a;
       text-decoration: none;
-      color: #38bdf8;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
     }
 
-    .card a:hover {
-      text-decoration: underline;
+    .btn:hover {
+      background: #0ea5e9;
+      transform: scale(1.05);
     }
+
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Meu Portfólio | murilobiscaro | Desenvolvedor Full-Stack</h1>
-    <p>Nas janelas abaixo você vai encontrar projetos desenvolvidos durante meus estudos em Front-End</p>
+    <h1>🚀 Meu Portfólio</h1>
+    <p>Projetos desenvolvidos durante meus estudos em Front-End</p>
   </header>
 
   <section class="container">
 
     <div class="card">
-      <h2>🌍 Local Turístico</h2>
-      <p>Projeto focado em layout e organização de conteúdo.</p>
-      <a href="./Projeto Local Turístico/">Ver projeto</a>
+      <img src="./assets/local.png" alt="Projeto Local Turístico">
+      <div class="card-content">
+        <h2>Local Turístico</h2>
+        <p>Projeto focado em layout e organização de conteúdo.</p>
+        <a href="./Projeto Local Turístico/" class="btn">Ver projeto</a>
+      </div>
     </div>
 
     <div class="card">
-      <h2>📰 Portal de Notícias</h2>
-      <p>Projeto utilizando CSS Grid para estruturação.</p>
-      <a href="./Projeto Portal Notícias/">Ver projeto</a>
+      <img src="./assets/noticias.png" alt="Portal de Notícias">
+      <div class="card-content">
+        <h2>Portal de Notícias</h2>
+        <p>Projeto utilizando CSS Grid para estruturação.</p>
+        <a href="./Projeto Portal Notícias/" class="btn">Ver projeto</a>
+      </div>
     </div>
 
     <div class="card">
-      <h2>🍽️ Receitas</h2>
-      <p>Interface simples para apresentação de receitas.</p>
-      <a href="./Projeto Receitas/">Ver projeto</a>
+      <img src="./assets/receitas.png" alt="Projeto Receitas">
+      <div class="card-content">
+        <h2>Receitas</h2>
+        <p>Interface simples para apresentação de receitas.</p>
+        <a href="./Projeto Receitas/" class="btn">Ver projeto</a>
+      </div>
     </div>
 
     <div class="card">
-      <h2>✈️ Travelgram</h2>
-      <p>Projeto final com foco visual e organização.</p>
-      <a href="./Projeto Travelgram/">Ver projeto</a>
+      <img src="./assets/travel.png" alt="Projeto Travelgram">
+      <div class="card-content">
+        <h2>Travelgram</h2>
+        <p>Projeto final com foco visual e organização.</p>
+        <a href="./Projeto Travelgram/" class="btn">Ver projeto</a>
+      </div>
     </div>
 
   </section>
