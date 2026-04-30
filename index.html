@@ -2,18 +2,96 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Meus Projetos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murilo Biscaro | Portfólio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #38bdf8;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>🚀 Meus Projetos</h1>
+  <header>
+    <h1>🚀 Meu Portfólio</h1>
+    <p>Projetos desenvolvidos durante meus estudos em Front-End</p>
+  </header>
 
-  <ul>
-    <li><a href="./Projeto Local Turístico/">Projeto Local Turístico</a></li>
-    <li><a href="./Projeto Portal Notícias/">Portal de Notícias</a></li>
-    <li><a href="./Projeto Receitas/">Projeto Receitas</a></li>
-    <li><a href="./Projeto Travelgram/">Projeto Travelgram</a></li>
-  </ul>
+  <section class="container">
+
+    <div class="card">
+      <h2>🌍 Local Turístico</h2>
+      <p>Projeto focado em layout e organização de conteúdo.</p>
+      <a href="./Projeto Local Turístico/">Ver projeto</a>
+    </div>
+
+    <div class="card">
+      <h2>📰 Portal de Notícias</h2>
+      <p>Projeto utilizando CSS Grid para estruturação.</p>
+      <a href="./Projeto Portal Notícias/">Ver projeto</a>
+    </div>
+
+    <div class="card">
+      <h2>🍽️ Receitas</h2>
+      <p>Interface simples para apresentação de receitas.</p>
+      <a href="./Projeto Receitas/">Ver projeto</a>
+    </div>
+
+    <div class="card">
+      <h2>✈️ Travelgram</h2>
+      <p>Projeto final com foco visual e organização.</p>
+      <a href="./Projeto Travelgram/">Ver projeto</a>
+    </div>
+
+  </section>
 
 </body>
 </html>
