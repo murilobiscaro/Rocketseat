@@ -21,6 +21,43 @@
             </div>
             <h1>Formulário de matrícula</h1>
             <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+
+            <form method="post" enctype="multipart/form-data">
+                <fieldset class="child-info">
+                   <legend>Informações da criança</legend> 
+
+                   <div class="input-wrapper">
+                        <label for="fullname">Nome completo</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Qual o nome da criança">
+                   </div>
+
+                    <div class="input-wrapper">
+                        <label for="birth">Data de nascimento</label>
+                        <input type="date" id="birth" name="birth" placeholder="DD/MM/AAAA">
+                    </div>
+
+                    <div class="select-wrapper">
+                        <label for="grade">Sexo</label>
+                        <select id="grade" name="grade">
+                            <option value="male">Masculino</option>
+                            <option value="female">Feminino</option>
+                            <option value="na">Prefiro não responder</option>
+                        </select>
+                    </div>
+
+                    <div class="textarea-wrapper">
+                        <label for="medical-info">Informações médicas</label>
+                        <textarea id="medical-info" name="medical-info" placeholder="Descreva qualquer informação médica relevante" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="droparea-wrapper">
+                        <input type="file" id="birth-file" name="birth-file">
+                        <img src="assets/icons/cloud-upload.svg" alt="">
+                        <p>Clique para <br>
+                        selecionar arquivos</p>
+                    </div>
+                </fieldset>
+            </form>
         </div>
        </main> 
 
