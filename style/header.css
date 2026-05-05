@@ -4,12 +4,13 @@ header.container {
     background-size: cover;
 }
 
-.hero-content {
-    max-width: 680px;
-
+.avatar {
+    position: relative;
+    width: fit-content;
 }
 
-.hero-content img {
+.avatar #murilo-foto {
+    display: block;
     height: 96px;
     width: 96px;
     border-radius: 50%;
@@ -17,6 +18,20 @@ header.container {
     border: 2px solid var(--red);
     padding: 4px;
 }
+
+.avatar #code-icon {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    bottom: 53px;
+    left: 67px;
+}
+
+.hero-content {
+    max-width: 680px;
+
+}
+
 
 .tags {
     display: flex;
