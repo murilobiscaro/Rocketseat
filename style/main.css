@@ -1,0 +1,42 @@
+main.container {
+    min-height: 917px;
+    background-color: var(--gray500);
+}
+
+.card {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray400);
+    border-radius: 12px;
+    text-align: left;
+    padding: 12px;
+}
+
+.card img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+}
+
+.text-card {
+    margin-left: 8px;
+}
+
+.text-card p {
+    color: var(--gray200);
+}
+
+.card:hover {
+    border: 1.5px solid var(--gray300);
+    cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}

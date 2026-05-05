@@ -1,141 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Murilo Biscaro | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Murilo Biscaro</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #0f172a;
-      color: #e2e8f0;
-    }
-
-    header {
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      color: #94a3b8;
-    }
-
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      padding: 20px;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-
-    .card {
-      background: #1e293b;
-      border-radius: 12px;
-      overflow: hidden;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    }
-
-    .card img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 20px;
-    }
-
-    .card-content h2 {
-      margin-bottom: 10px;
-    }
-
-    .card-content p {
-      font-size: 0.9rem;
-      color: #94a3b8;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 15px;
-      background: #38bdf8;
-      color: #0f172a;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #0ea5e9;
-      transform: scale(1.05);
-    }
-  </style>
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header>
-    <h1>Meu Portfólio | Murilo Biscaro | Desenvolvedor FullStack</h1>
-    <p>Projetos desenvolvidos durante meus estudos em Front-End</p>
-  </header>
-
-  <section class="container">
-
-    <div class="card">
-      <img src="https://picsum.photos/400/200?1" alt="Projeto Local Turístico">
-      <div class="card-content">
-        <h2>Local Turístico</h2>
-        <p>Projeto focado em layout e organização de conteúdo.</p>
-        <a href="./Projeto Local Turístico/" class="btn">Ver projeto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://picsum.photos/400/200?2" alt="Portal de Notícias">
-      <div class="card-content">
-        <h2>Portal de Notícias</h2>
-        <p>Projeto utilizando CSS Grid para estruturação.</p>
-        <a href="./Projeto Portal Notícias/" class="btn">Ver projeto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://picsum.photos/400/200?3" alt="Projeto Receitas">
-      <div class="card-content">
-        <h2>Receitas</h2>
-        <p>Interface simples para apresentação de receitas.</p>
-        <a href="./Projeto Receitas/" class="btn">Ver projeto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://picsum.photos/400/200?4" alt="Projeto Travelgram">
-      <div class="card-content">
-        <h2>Travelgram</h2>
-        <p>Projeto final com foco visual e organização.</p>
-        <a href="./Projeto Travelgram/" class="btn">Ver projeto</a>
-      </div>
-    </div>
-
-  </section>
-
+    <header class="container">
+        <div class="hero-content">
+                <img src="assets/murilo-foto.jpg" alt="Perfil">
+                    
+            <h3>Hello World! Meu nome é <span>Murilo Biscaro</span> e sou</h3>
+            <h1>Desenvolvedor Fullstack</h1>
+            <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+            </p>
+        </div>
+        <section class="tags">
+            <div class="tag">
+                <img src="assets/GitHub.svg" alt="GitHub">
+                <h2>GitHub</h2>
+            </div>
+            <div class="tag">
+                <img src="assets/HTML.svg" alt="HTML">
+                <h2>HTML</h2>
+            </div>
+            <div class="tag">
+                <img src="assets/CSS.svg" alt="CSS">
+                <h2>CSS</h2>
+            </div>
+            <div class="tag">
+                <img src="assets/JavaScript.svg" alt="JavaScript">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="tag">
+                <img src="assets/React.svg" alt="React">
+                <h2>React</h2>
+            </div>
+            <div class="tag">
+                <img src="assets/Node.js.svg" alt="Node.js">
+                <h2>Node.js</h2>
+            </div>
+        </section>
+        <div id="flecha">
+            <img src="assets/flecha-abaixo.svg" alt="">
+        </div>
+    </header>
+    <main class="container">
+        <header>
+            <h3><span>Meu trabalho</span></h3>
+            <h4>Veja os projetos em destaque</h4>
+        </header>
+        <section class="grid">
+            <div class="card">
+                <a href="https://murilobiscaro.github.io/Rocketseat/Projeto%20Travelgram/" target="_blank">
+                    <img src="assets/Thumbnail_Project-01.png" alt="Projeto 1">
+                    <div class="text-card">
+                        <h5>Travelgram</h5>
+                        <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://murilobiscaro.github.io/Rocketseat/Projeto%20Portal%20Not%C3%ADcias/" target="_blank">
+                    <img src="assets/Thumbnail_Project-02.png" alt="Projeto 2">
+                    <div class="text-card">
+                        <h5>Tech News</h5>
+                        <p>Homepage de um portal de notícias sobre a área de tecnologia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://murilobiscaro.github.io/Rocketseat/Projeto%20Receitas/" target="_blank">
+                    <img src="assets/Thumbnail_Project-03.png" alt="Projeto 3">
+                    <div class="text-card">
+                        <h5>Pagina de receita</h5>
+                        <p>Página com o passo a passo de uma receita para cupcakes.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://placehold.co/600x400?text=Em+Constru%C3%A7%C3%A3o" target="_blank">
+                    <img src="assets/Thumbnail_Project-04.png" alt="Projeto 4">
+                    <div class="text-card">
+                        <h5>Zingen</h5>
+                        <p>Landing Page completa e responsiva de um aplicativo de Karaokê.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://placehold.co/600x400?text=Em+Constru%C3%A7%C3%A3o" target="_blank">
+                    <img src="assets/Thumbnail_Project-05.png" alt="Projeto 1">
+                    <div class="text-card">
+                        <h5>Refund</h5>
+                        <p>Um sistema para pedido e acompanhamento de reembolso.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://murilobiscaro.github.io/Rocketseat/Projeto%20Local%20Tur%C3%ADstico/" target="_blank">
+                    <img src="assets/Thumbnail_Project-06.png" alt="Projeto 1">
+                    <div class="text-card">
+                        <h5>Pagina de turismo</h5>
+                        <p>Página com as principais informações para quem quer viajar para Busan.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <aside class="container">
+        <header>
+            <h3><span>Meus serviços</span></h3>
+            <h4>Como posso ajudar o seu negócio</h4>
+        </header>
+        <section class="grid">
+            <div class="card-service">
+                <img src="assets/comp-celular.svg" alt="Desenvolvimento Mobile">
+                <div class="text-card-service">
+                    <h5>Ebsites e Aplicativos</h5>
+                    <p>Desenvolvimento de interfaces</p>
+                </div>
+            </div>
+            <div class="card-service">
+                <img src="assets/hd.svg" alt="Desenvolvimento Mobile">
+                <div class="text-card-service">
+                    <h5>API e banco de dados</h5>
+                    <p>Criação de serviços do sistema</p>
+                </div>
+            </div>
+            <div class="card-service-3">
+                <img src="assets/infinity.svg" alt="Desenvolvimento Mobile">
+                <div class="text-card-service">
+                    <h5>DevOps</h5>
+                    <p>Gestão e infraestrutura da aplicação</p>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <footer class="container">
+        <header>
+            <h3 id="h3-footer">Contato</h3>
+            <h4 id="h4-footer">Gostou do meu trabalho?</h4>
+            <p id="p-footer">Entre em contato ou acompanhe as minhas redes sociais!</p>
+        </header>
+        <section class="grid-footer">
+            <div>
+                <a href="https://www.linkedin.com/in/murilo-biscaro-executivo-contas/" target="_blank">
+                    <button>
+                        <div class="redes-sociais">
+                            <img src="assets/linkedin.svg" alt="LinkedIn">
+                            <h2>Linkedin</h2>
+                            <div class="icone-flecha-azul">
+                                <img src="assets/flecha-azul.svg" alt="">
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/murilo.biscaro" target="_blank">
+                    <button>
+                        <div class="redes-sociais">
+                            <img src="assets/instagram.svg" alt="Instagram">
+                            <h2>Instagram</h2>
+                            <div class="icone-flecha-azul">
+                                <img src="assets/flecha-azul.svg" alt="">
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/murilobiscaro" target="_blank">
+                    <button>
+                        <div class="redes-sociais">
+                            <img src="assets/github-footer.svg" alt="GitHub">
+                            <h2>GitHub</h2>
+                            <div class="icone-flecha-azul">
+                                <img src="assets/flecha-azul.svg" alt="">
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:murilobbiscaro@gmail.com" target="_blank">
+                    <button>
+                        <div class="redes-sociais">
+                            <img src="assets/email.svg" alt="GitHub">
+                            <h2>E-mail</h2>
+                            <div class="icone-flecha-azul">
+                                <img src="assets/flecha-azul.svg" alt="">
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

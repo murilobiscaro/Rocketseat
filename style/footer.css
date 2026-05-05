@@ -1,0 +1,47 @@
+footer.container {
+    min-height: 787px;
+    background-image: url("../assets/Background_Contacts.png");
+    background-size: cover;
+}
+
+#h4-footer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#p-footer {
+    font: var(--text-md);
+    color: var(--gray200);
+}
+
+#h3-footer {
+    color: var(--purple);
+}
+
+.redes-sociais {
+    display: flex;
+    margin-left: 24px;
+    gap: 12px; 
+    align-items: center;
+}
+
+.redes-sociais img{
+    width: 28px; 
+    height: 28px; 
+}
+
+.icone-flecha-azul {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.icone-flecha-azul img {
+    width: 15px;
+    height: 15px;
+}
+
+.grid-footer {
+    margin-top: 48px;
+    display: grid;
+    gap: 16px;
+}

@@ -1,0 +1,27 @@
+aside.container {
+    min-height: 480px;
+    background-color: var(--gray600);  
+}
+
+.card-service {
+    width: 280px;
+    height: 155px;
+    border-radius: 12px;
+    text-align: left;
+    border: 2px solid var(--gray500);
+    padding: 20px;
+}
+
+.text-card-service p {
+    color: var(--gray200);
+}
+
+.card-service-3 {
+    width: 280px;
+    height: 155px;
+    border-radius: 12px;
+    text-align: left;
+    border: 2px solid var(--gray500);
+    padding: 20px;
+    padding-top: 32px;
+}
